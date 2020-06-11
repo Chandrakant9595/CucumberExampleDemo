@@ -1,0 +1,380 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 167473,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TaggedHooksDefination.setUp()"
+            }
+          },
+          {
+            "result": {
+              "duration": 58312,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TaggedHooksDefination.setUp1()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Dog",
+        "description": "",
+        "id": "taggedhooks-example;dog",
+        "after": [
+          {
+            "result": {
+              "duration": 52248,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TaggedHooksDefination.tearDown1()"
+            }
+          },
+          {
+            "result": {
+              "duration": 58312,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TaggedHooksDefination.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 144695545,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "given step dog",
+            "match": {
+              "location": "TaggedHooksDefination.given_step_dog()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 60645,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "when step dog",
+            "match": {
+              "location": "TaggedHooksDefination.when_step_dog()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 52714,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "then step dog",
+            "match": {
+              "location": "TaggedHooksDefination.then_step_dog()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 59246,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TaggedHooksDefination.setUp()"
+            }
+          },
+          {
+            "result": {
+              "duration": 43851,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TaggedHooksDefination.setUp1()"
+            }
+          },
+          {
+            "result": {
+              "duration": 55047,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TaggedHooksDefination.catPrecondition()"
+            }
+          }
+        ],
+        "line": 9,
+        "name": "Cat",
+        "description": "",
+        "id": "taggedhooks-example;cat",
+        "after": [
+          {
+            "result": {
+              "duration": 49449,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TaggedHooksDefination.catPostcondition()"
+            }
+          },
+          {
+            "result": {
+              "duration": 42918,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TaggedHooksDefination.tearDown1()"
+            }
+          },
+          {
+            "result": {
+              "duration": 47583,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TaggedHooksDefination.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 60645,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "given step cat",
+            "match": {
+              "location": "TaggedHooksDefination.given_step_cat()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 54580,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "when step cat",
+            "match": {
+              "location": "TaggedHooksDefination.when_step_cat()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 53647,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "then step cat",
+            "match": {
+              "location": "TaggedHooksDefination.then_step_cat()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 8,
+            "name": "@Cat"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 68575,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TaggedHooksDefination.setUp()"
+            }
+          },
+          {
+            "result": {
+              "duration": 53648,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TaggedHooksDefination.setUp1()"
+            }
+          }
+        ],
+        "line": 21,
+        "name": ": Monkey",
+        "description": "",
+        "id": "taggedhooks-example;:-monkey;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 42917,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TaggedHooksDefination.tearDown1()"
+            }
+          },
+          {
+            "result": {
+              "duration": 44784,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TaggedHooksDefination.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 75573,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "given step monkey",
+            "match": {
+              "location": "TaggedHooksDefination.given_step_monkey()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 53181,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "when step monkey",
+            "match": {
+              "location": "TaggedHooksDefination.when_step_monkey()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 52714,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "then step monkey",
+            "match": {
+              "location": "TaggedHooksDefination.then_step_monkey()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 64377,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TaggedHooksDefination.setUp()"
+            }
+          },
+          {
+            "result": {
+              "duration": 42451,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TaggedHooksDefination.setUp1()"
+            }
+          }
+        ],
+        "line": 22,
+        "name": ": Monkey",
+        "description": "",
+        "id": "taggedhooks-example;:-monkey;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 40585,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TaggedHooksDefination.tearDown1()"
+            }
+          },
+          {
+            "result": {
+              "duration": 38253,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TaggedHooksDefination.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 85369,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "given step monkey",
+            "match": {
+              "location": "TaggedHooksDefination.given_step_monkey()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 43384,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "when step monkey",
+            "match": {
+              "location": "TaggedHooksDefination.when_step_monkey()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 41052,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "then step monkey",
+            "match": {
+              "location": "TaggedHooksDefination.then_step_monkey()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "TaggedHooks example",
+    "description": "",
+    "id": "taggedhooks-example",
+    "keyword": "Feature",
+    "uri": "src/main/java/features/TaggedHooksExample.feature"
+  }
+]
